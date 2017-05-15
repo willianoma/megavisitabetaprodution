@@ -1,8 +1,8 @@
 <?php
 
-$banco = "mempr419_megavisita";
-$usuario = "mempr419_mega";
-$senha = "1475963";
+$banco = "";
+$usuario = "";
+$senha = "";
 $hostname = "localhost";
 $conn = mysql_connect($hostname, $usuario, $senha);
 mysql_select_db($banco) ;
